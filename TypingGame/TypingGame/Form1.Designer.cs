@@ -50,7 +50,7 @@
             this.listBox1.Location = new System.Drawing.Point(0, 0);
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(854, 123);
+            this.listBox1.Size = new System.Drawing.Size(1021, 166);
             this.listBox1.TabIndex = 0;
             // 
             // timer1
@@ -69,9 +69,9 @@
             this.accuracyLabel,
             this.toolStripStatusLabel1,
             this.difficultyProgressBar});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 98);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 141);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(854, 25);
+            this.statusStrip1.Size = new System.Drawing.Size(1021, 25);
             this.statusStrip1.SizingGrip = false;
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
@@ -118,11 +118,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(854, 123);
+            this.ClientSize = new System.Drawing.Size(1021, 166);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.listBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
